@@ -1,0 +1,9 @@
+CREATE DATABASE chatbot;
+
+USE chatbot;
+
+CREATE TABLE chatbot (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  queries VARCHAR(255) NOT NULL,
+  replies VARCHAR(255) NOT NULL
+);
